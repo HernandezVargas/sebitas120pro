@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*---HEADER---*/
+header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: url(../img/trabajador.png);
+    background-size: 100%;
+    padding: 15%;
+
+}
+
+header>img {
+    width: 20%;
+}
+
+header>h1 {
+    color: black;
+    font: size 50px;
+    background-color: lightpink;
+    padding: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    width: 50%;
+    line-height: 80px;
+
+}
+
+/*----QUIEN SOY----*/
+
+.quiensoy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(62, 172, 223, 0.74);
+
+}
+
+.quiensoy .img>img {
+    width: 70%;
+}
+
+.quiensoy .txt>h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.quiensoy .img>p {
+    font-size: 20px;
+    line-height: 30px;
+    color: black
+}
+
+/*----VALORES----*/
+
+.valores {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(141, 176, 241);
+}
+
+.valores.listadevalores>p {
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.valores.listadevalores>ul>li {
+    list-style: none;
+    font-size: 30px;
+    line-height: 60px;
+    color: black;
+}
+
+.valores.logocolegio>img {
+    width: 70%;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -o-border-radius: 20%;
+
+}
+
+/*-----METAS-----*/
+
+.mismetas>h2 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+    background-color: lightgreen;
+}
+
+.mismetas.metas {
+    display: flex;
+    justify-content: space-around;
+    padding: 6%;
+    text-align: center;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+.mismetas.meta1 {
+    margin: 1%;
+    background-color: rgb(99, 212, 216);
+    padding: 2%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.mismetas .meta1>img {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -ms-border-radius: 50px;
+    margin-bottom: 5%;
+}
+
+.mismetas .meta1>h3 {
+    font-size: 20px;
+}
+
+.mismetas .meta2 {
+    margin: 1%;
+    background-color: rgb(99, 212, 216);
+    padding: 2%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+
+}
+
+.mismetas .meta2>img {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-bottom: 5%;
+}
+
+.mismetas .meta2>h3 {
+    font-size: 20px;
+}
+
+.mismetas .meta3 {
+    margin: 1%;
+    background-color: rgb(99, 212, 216);
+    padding: 2%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-bottom: 5%;
+
+}
+
+.mismetas .meta3>img {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-bottom: 5%;
+
+}
+
+.mismetas .meta3>h3 {
+    font-size: 20px;
+}
+
+/*-----FRASE-----*/
+
+.frase {
+    text-align: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.frase>h2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: lightsalmon;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+/*-----FOOTER-----*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    text-align: start;
+    align-items: center;
+}
+
+footer p {
+    margin-left: 5%;
+    color: white;
+    padding: 1%
+}
+
+footer .social {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    margin-right: 5%;
+}
+
+footer .social a img {
+    border-radius: 20%;
+    padding: 30%;
+    align-items: center;
+}
+
+footer .social a img:hover {
+    background-color: chartreuse;
+    transition-duration: 0.7s;
+
+}
